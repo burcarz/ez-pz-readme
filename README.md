@@ -3,7 +3,7 @@
 
 This app generates a professional looking readme based on user input using inquirer.js
 
-![image](https://ibb.co/60SPq1P)
+![image](/develop/med/readmesnap.png)
 
 ## Installation
 
