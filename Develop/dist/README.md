@@ -23,7 +23,7 @@
 
   They're using our own satellites against us. And the clock is ticking. Must go faster... go, go, go, go, go! Checkmate... What do they got in there? King Kong? You know what? It is beets. I've crashed into a beet truck. God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs.
 
-  ## Github Profile<a name="profile></a>
+  ## Github Profile<a name="profile"></a>
 
   burcarz
   [Link to Profile](www.github.com/burcarz)
