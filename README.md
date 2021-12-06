@@ -3,6 +3,8 @@
 
 This app generates a professional looking readme based on user input using inquirer.js
 
+[!image](https://ibb.co/60SPq1P)
+
 ## Installation
 
 This app utilizes inquirer.js; utilizing command line prompts to gather user info to generate a readme page for them
@@ -17,7 +19,7 @@ Pull requests are welome, for major changes please open an issue first.
 
 ## Media Links
 
-[link to a video demonstration]()
+[link to a video demonstration](https://www.youtube.com/watch?v=WzBW_YGlQhg)
 
 ## Future Development
 
