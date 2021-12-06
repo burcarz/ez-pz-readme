@@ -45,10 +45,33 @@ const promptUser = markdownData => {
         {
             type: 'input',
             name: 'test',
-
-
-
             message: "Please enter your project's test instructions"
+        },
+        {
+            type: "list",
+            name: "license",
+            message: "Please choose a license for your project",
+            choices: ["MIT", "BSD",  "GPL"]
+        },
+        {
+            type: "input",
+            name: "link",
+            message: "Please add a link to your project's license"
+        },
+        {
+            type: "input",
+            name: "user",
+            message: "Please enter your github username."
+        },
+        {
+            type: "input",
+            name: "profileLink",
+            message: "Please enter a link to your Github profile"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Please enter your email address"
         }
     ])
 }
@@ -57,10 +80,12 @@ const promptUser = markdownData => {
 function init() {
     promptUser()
     .then(markdownData => {
+        console.log(markdownData)
         return generateMarkdown(markdownData)
     })
     .then(markdownData => {
-        return writeToFile("markdown", markdownData)
+        // console.log(markdownData.license)
+        return writeToFile(markdownData)
     })
     .catch(err => {
         console.log(err)
